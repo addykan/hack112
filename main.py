@@ -14,7 +14,7 @@ def main():
 insults = {
     'AssertionError': "That’s common sense! And your tiny mind is not common!", 
     'AttributeError': "Get your shit together!",
-    'BaseException': "Try not to throw it on there, yeah? We're f***ing cooking, not playing darts.",
+    'BaseException': "Try not to throw it on there, yeah? We're f*cking cooking, not playing darts.",
     'EOFError': "You f*cking donkey", 
     'IndentationError': "Hey, panini head, listen to me! You're gonna kill someone!",
     'IndexError': '''I wish you would jump in the oven!
@@ -26,9 +26,13 @@ insults = {
                             non-stiiiiiiiiiiick!''', 
     'NameError': '''I’ve never, ever, ever, ever, ever met someone I believe in as 
                 little as you.''',
+    'OverflowError': "There’s enough garlic in here to kill every vampire in Europe.",
     'RecursionError': 'Forecast for tomorrow? 100 percent chance of tears.',
     'ReferenceError':'It’s not as if you’re the captain of the Titanic... you’re the fucking iceberg!',
-    'OverflowError': "There’s enough garlic in here to kill every vampire in Europe.",
+    'RuntimeError': 'My gran could do better! And she’s dead!',
+    'SyntaxError': """You do seriously surprise me...
+                      You surprise me as to how sh*t you are.""",
+    'SystemError': "Can you just shut the fuck up for 30 seconds?",
     'TabError': "It's like f***ing baby vomit.",
     'TypeError': "This lamb is so undercooked, it's following Mary to school!",
     'UnboundLocalError': "Of course you don't put f***ing salad [in the microwave]!",
