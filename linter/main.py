@@ -14,16 +14,15 @@ def main():
         hw.main()
     except Exception as e:
         global exception
-        exception = e
-        image = Image.open(f'gifs/{insults[str(type(exception).__name__)][1]}')
-        print(sentanceCase(type(e).__name__), '-', insults[str(type(e).__name__)][0])
+        exception = str(type(e).__name__)
+        print(sentanceCase(exception), '-', insults[exception][0])
         MyApp(width=500, height=300)
        
 class MyApp(App):
     def appStarted(self):
         self.timerDelay = 100
         self.time = 0
-        self.imageObject = Image.open(f'gifs/{insults[str(type(exception).__name__)][1]}')
+        self.imageObject = Image.open(f'gifs/{insults[exception][1]}')
 
     def timerFired(self):
         self.time += 1
