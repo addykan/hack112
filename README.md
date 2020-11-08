@@ -12,9 +12,11 @@
 ### Description:
       A multifaceted project centered around some of Gordon Ramsay's infamous insults. 
       
-      Part 1: a custom linter/debugger that catches standard Python errors and exceptions as well as 112-specific errors, but outputs a Gordon Ramsay insult and a corresponding GIF. 
+      Part 1: a custom linter/debugger that catches standard Python errors and exceptions 
+      as well as 112-specific errors, but outputs a Gordon Ramsay insult and a corresponding GIF. 
       
-      Part 2: an OpenCV project that detects the user's facial movement, and like Gordon Ramsay, will scream at you if you're doing something wrong.
+      Part 2: an OpenCV project that detects the user's facial movement, and like Gordon 
+      Ramsay, will scream at you if you're doing something wrong.
 
 ### Modules Needed:
       - importlib
