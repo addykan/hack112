@@ -11,6 +11,8 @@
 
 ### Description:
       A multifaceted project centered around some of Gordon Ramsay's infamous insults. 
+      Gordon Ramsay lives in your computer and will watch over you, making you fully 
+      aware of every mistake you make along the way.
       
       Part 1: a custom linter/debugger that catches standard Python errors and exceptions 
       as well as 112-specific errors, but outputs a Gordon Ramsay insult and a corresponding GIF. 
